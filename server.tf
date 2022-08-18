@@ -8,7 +8,7 @@ resource "aws_instance" "myawsserver" {
 
   tags = {
     Name = "vel-DevOps-server"
-    env = "Lab"
+    env = "Dev"
     owner = "vel"
   }
   provisioner "local-exec" {
