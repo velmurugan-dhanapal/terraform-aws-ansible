@@ -4,7 +4,7 @@ region = "us-east-2"
 resource "aws_instance" "myawsserver" {
   ami = "ami-077e31c4939f6a2f3"
   instance_type = "t2.micro"
-  key_name = "vel-import"
+  key_name = "velmrnd-ec2-instance-key-pair"
 
   tags = {
     Name = "vel-DevOps-server"
